@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       name: 'Counter',
-      component: HelloWorld
+      component: Counter
     }
   ]
 })

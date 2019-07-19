@@ -2,15 +2,17 @@
   <div>
     <button @click="add">+</button>
     <span>{{value}}</span>
-    <button @click="del"></button>
+    <button @click="del">-</button>
   </div>
 </template>
 
 <script>
   export default {
     name: "Counter",
-    data: {
-      value: 0
+    data () {
+      return {
+        value: 0
+      }
     },
     methods: {
       add(){
